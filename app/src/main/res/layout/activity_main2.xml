@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2"
+    tools:ignore="onClick">
+
+    <ImageView
+        android:id="@+id/cu"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="25dp"
+        android:contentDescription="@string/cd"
+        app:srcCompat="@drawable/culogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/cu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/advent_pro_medium"
+        android:text="@string/boys"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline2"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fillViewport="true"
+        android:layout_below="@+id/textView">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bh1"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:contentDescription="@string/cd"
+                app:srcCompat="@drawable/bh1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="InvalidId" />
+
+            <ImageView
+                android:id="@+id/bh2"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="25dp"
+                android:contentDescription="@string/cd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bh1"
+                app:srcCompat="@drawable/bh2"
+                tools:ignore="InvalidId" />
+
+            <ImageView
+                android:id="@+id/bh3"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:contentDescription="@string/cd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bh2"
+                app:srcCompat="@drawable/bh3"
+                tools:ignore="InvalidId" />
+
+            <TextView
+                android:id="@+id/skehall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/ske"
+                app:layout_constraintEnd_toEndOf="@+id/bh3"
+                app:layout_constraintStart_toStartOf="@+id/bh3"
+                app:layout_constraintTop_toBottomOf="@+id/bh3" />
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="-200dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/cd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/skehall"
+                app:srcCompat="@drawable/fblogo"
+                android:onClick="gotoFacebook"/>
+
+            <ImageView
+                android:id="@+id/ig"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/cd"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/fb"
+                app:layout_constraintTop_toBottomOf="@+id/skehall"
+                app:srcCompat="@drawable/ig"
+                android:onClick="gotoInstagram"/>
+
+            <ImageView
+                android:id="@+id/yt"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/cd"
+                app:layout_constraintEnd_toEndOf="@+id/fb"
+                app:layout_constraintStart_toStartOf="@+id/fb"
+                app:layout_constraintTop_toBottomOf="@+id/fb"
+                app:srcCompat="@drawable/yt"
+                android:onClick="gotoYoutube"/>
+
+            <ImageView
+                android:id="@+id/maps"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:contentDescription="@string/cd"
+                app:layout_constraintEnd_toEndOf="@+id/ig"
+                app:layout_constraintStart_toStartOf="@+id/ig"
+                app:layout_constraintTop_toBottomOf="@+id/ig"
+                app:srcCompat="@drawable/maps"
+                android:onClick="gotoGoogleMaps"/>
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

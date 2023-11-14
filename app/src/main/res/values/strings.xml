@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">cuhostel</string>
+    <string name="heading">CU HOSTELS</string>
+    <string name="opt1">St. Kuriakose Elias Hall</string>
+    <string name="ske">This Hall provides accommodation for post- graduate, Doctorate and Post Doc. male students  studying in the Central Campus, Christ (Deemed to be University).
+        St. Kuriakose Elias Hall is dedicated to St. Kuriakose Elias Chavara, the founder of CMI Congregation, which manages Christ University and various educational institutions in Bengaluru and elsewhere.
+        St. Kuriakose Elias Hall inmates are free to move around anywhere in the campus or outside from 6.30am  till 9.00pm
+        K E Hall offers two, three and four sharing rooms (122) with the following amenities-
+        Each student will be provided with one coat, bed with protectors, one table, one chair, one steel cupboard and an adjustable hanger.
+        We have all fire safety measures and two lifts.
+        RO purified water for drinking is there at alternate floors,Drying area with washing machines on 7th floor, 24/7 Solar hot water with electrical backup and Medical facility is there in the campus and  Ambulance Service for medical emergency.
+        Wi-Fi facility is available in the whole campus.
+        Gym- Students will have access to the well -equipped gym in the Central Block.
+        Multi-purpose Hall- Students can utilize this common hall at the basement for individual or group studies, recreations like watching T.V. and playing T.T.
+        Residents can warm their food here on the Induction Top and OTG and have it.
+        Security: The security of the residents is one of the University\'s highest priorities.
+        Access into St.Kuriakose Elias Hall is via the use of a Biometric system only.
+        Security personnel are stationed at the hostel to ensure round the clock security for the residents.
+        Mess facility is not provided at St.Kuriakose Elias Hall but out sourcing of homemade food is there.
+        Apart from this there are 19 Guest rooms fully furnished with toilet, kitchen, AC, and TV in the Ground floor for the visiting faculties and University Guests.
+        We have 8 housekeeping staff and 2 supervisors to keep the K E Hall clean and neat.
+        Warden gets the guidance from the Director and assistance from two Faculties and Research assistants who stay here.</string>
+
+    <string name="boys">St. Kuriakose Boys Hostel</string>
+    <string name="girls">Jonas Hall</string>
+    <string name="jonas">Jonas Hall provides accommodation for female students on the central campus.
+        The residence hall is named after the late Bishop Jonas Thaliath, CMI, and the visionary who worked unceasingly to build Dharmaram College and Christ College (presently CHRIST(Deemed to be University)) way back in 1955.
+        Jonas Hall welcomes female students from graduate and undergraduate studies at CHRIST(Deemed to be University)across the deaneries and programmes.
+        Jonas Hall offers Single, twin, and triple sharing rooms with the following common facilities Wi-Fi- Wi-Fi in the study room and recreation haII.
+        Gym- A well-equipped gym is available for the residents in the hostel.
+        Group Study Hall- Students can utilize the common study hall for group or individual study.
+        Common Kitchen: Microwave oven and induction cookers are provided for residents to warm Food.
+        Prayer Hall: A Chapel is a place of quiet where students can find a space to pray or meditate.
+        Library: The CHRIST(Deemed to be University)library is available for the residents from 9 am to 9 pm.
+        Security: The security of the residents is one of the University\'s highest priorities.
+        Access into Jonas Hall is via the use of a biometric system only. Security personnel is stationed at the hostel to ensure 24/7 security for the residents.</string>
+    <string name="cd">Content Description</string>
+
+</resources>
